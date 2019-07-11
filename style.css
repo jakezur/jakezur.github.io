@@ -55,16 +55,26 @@ header{
 }
 
 #aboutPicture{
-    background-image: url(http://webresizer.com/images2/bird1_after.jpg);
+    background-image: url("./aboutMePicture.jpeg");
     background-repeat: no-repeat;
-    background-size: contain;
-    margin-left: 65%;
+    background-size: cover;
+    margin-left:58.5%;
+    margin-top: 0px;
     width: 40%;
-    height: 73vh;
+    height: 63vh;
+    position: relative;
+    top: -250px;
 
 
 }
 
 #aboutDetails{
-    width:60%;
+    width:55%;
+    position: relative;
+    left: 30px;
+}
+
+#contactInfo{
+    overflow-y:  scroll;
+    margin-left: 20px;
 }
